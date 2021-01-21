@@ -16,9 +16,9 @@ public class Clock : MonoBehaviour
     {
         TimeSpan time = DateTime.Now.TimeOfDay;
         //Debug.Log(DateTime.Now.Hour);移到下面
-        hoursPivot.localRotation = Quaternion,Euler(0f, 0f, hoursToDegress * (float)time.TotalHours);//Quaternion用於表示3D旋轉
+        hoursPivot.localRotation = Quaternion.Euler(0f,0f,hoursToDegress* (float)time.TotalHours);//Quaternion用於表示3D旋轉
         //localRotation父級旋轉，rotation整個物件旋轉
-        minutesPivot.localRotation = Quaternion,Euler(0f, 0f, minutesToDegress * (float)time.TotalMinutes);
-        secondsPivot.localRotation = Quaternion,Euler(0f, 0f, secondsToDegress * (float)time.TotalSeconds);
+        minutesPivot.localRotation = Quaternion.Euler(0f,0f,minutesToDegress* (float)time.TotalMinutes);
+        secondsPivot.localRotation = Quaternion.Euler(0f,0f,secondsToDegress* (float)time.TotalSeconds);
     }
 }
