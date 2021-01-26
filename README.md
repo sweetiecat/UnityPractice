@@ -1,7 +1,7 @@
 # UnityPractice
 Unity練習筆記
 ----
-Unity/ edit/ preferences/ external tool 記得要選 vs 程式碼才會變色~
+    Unity/ edit/ preferences/ external tool 記得要選 vs 程式碼才會變色~
 Git 上傳
 ----
 1. cd /d D:
