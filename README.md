@@ -1,6 +1,7 @@
 # UnityPractice
 ### Unity練習筆記<br>
 Unity/ edit/ preferences/ external tool 記得要選 vs 程式碼才會變色~<br>
+學習網址: https://catlikecoding.com/unity/tutorials/
 ### Git 上傳
 1. cd /d D:
 2. cd 拉專案路徑
