@@ -3,7 +3,7 @@ using UnityEngine;
 
 public class Clock : MonoBehaviour
 {
-    [SerializeField]//使物件能附上附加屬性(將物件拉給此變數，類似給物件一個別名)
+    [SerializeField] //使物件能附上附加屬性(將物件拉給此變數，類似給物件一個別名)
     Transform hoursPivot = default, minutesPivot = default, secondsPivot = default;//Transform挑整此屬性(旋轉/位移)
     //default給他一個默認值才不會跳警告
     //[SerializeField]如上合併再一起
@@ -12,7 +12,7 @@ public class Clock : MonoBehaviour
     //Transform secondsPivot;
 
     const float hoursToDegress = -30f, minutesToDegress = -6f, secondsToDegress = -6f;//f確保是type型態，const強制執行使其變成量而非字段
-    void Updata()//Awake()可自己命名(就是函式啦)
+    void Update()//Awake()可自己命名(就是函式啦)
     {
         TimeSpan time = DateTime.Now.TimeOfDay;
         //Debug.Log(DateTime.Now.Hour);移到下面

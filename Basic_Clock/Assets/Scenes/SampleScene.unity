@@ -1490,7 +1490,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ec70fc4f0b3ad4a49afcf90be3273353, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  hoersPivot: {fileID: 1443412446}
+  hoursPivot: {fileID: 1443412446}
   minutesPivot: {fileID: 283433276}
   secondsPivot: {fileID: 69114918}
 --- !u!1 &1802778528
